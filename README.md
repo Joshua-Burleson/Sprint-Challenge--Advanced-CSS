@@ -39,7 +39,7 @@ Edit this document to include your answers after each question. Make sure to lea
 2. Describe what it means to be mobile first vs desktop first.
 
     * mobile vs desktop first refers to developing the original version of the project to the chosen respective view.
-    * In desktop first breakpoints are made with max-width delimeters, whereas in mobile these are made with min-width.
+    * In desktop-first breakpoints are made with max-width delimeters, whereas in mobile-first these are made with min-width.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
@@ -47,7 +47,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 4. How would you describe preprocessing to someone new to CSS?
 
-    * Preprocessing leverages added syntactic features and strategies, such as variables, mixins, and functions, which are comiled into vanilla CSS; allowing us to code in a more quick, efficient, and scalable manner.
+    * Preprocessing leverages added syntactic features and strategies, such as variables, mixins, and functions, which are compiled into vanilla CSS; allowing us to code in a more quick, efficient, and scalable manner.
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 
@@ -138,9 +138,9 @@ In your solution, it is essential that you follow best practices and produce cle
 
 After finishing your required elements, you can push your work further. These goals may or may not be things you have learned in this module but they build on the material you just studied. Time allowing, stretch your limits and see if you can deliver on the following optional goals:
 
-* [ ] Build a page of your choosing from the navigation items. Come up with content and images that fit the theme.
+* [x] Build a page of your choosing from the navigation items. Come up with content and images that fit the theme.
 
-* [ ] Introduce CSS animations to your site.
+* [x] Introduce CSS animations to your site.
 
 * [ ] Create a fixed navigation and add some opacity to the background
 
