@@ -3,10 +3,17 @@ header{
 
     form{
 
+        background: url('/img/rocket.png') no-repeat;
+        background-size: contain;
+
         ul{
+
+            
+
             .flex(column, space-evenly, space-evenly);
 
             li{
+                // visibility: hidden;
                 
                 .flex(column, center, flex-start);
                 
@@ -25,13 +32,32 @@ header{
 
             img{
                 display: none;
+                // &:hover{
+                //     cursor: pointer;
+                //     animation-name: takeOff;
+                //     animation-delay: 0s;
+                //     animation-duration: 3s;
+                //     animation-iteration-count: infinite;
+                // }
             }
+
+
         }
 
     }
 
     .btn{
-        .butn(5rem, 30rem)
+        .butn(5rem, 30rem);
+        .hover();
+
+        &:active{
+
+            :root{
+                display: none;
+            }
+
+        }
     }
     
 }
+

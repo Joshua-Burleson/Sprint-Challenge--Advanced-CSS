@@ -1,12 +1,15 @@
 @keyframes takeOff {
   0% {
-    transform: translateY(1%);
+    transform: translateY(1vh);
+  }
+  25% {
+    transform: translateY(10vh);
   }
   50% {
-    transform: translateY(50%);
+    transform: translateY(-200vh);
   }
   100% {
-    transform: translateY(100%);
+    transform: translateY(-800vh);
   }
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -359,6 +362,10 @@ header {
   justify-content: space-around;
   align-items: center;
 }
+header form {
+  background: url('/img/rocket.png') no-repeat;
+  background-size: contain;
+}
 header form ul {
   display: flex;
   flex-direction: column;
@@ -394,4 +401,13 @@ header .btn {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+}
+header .btn:hover {
+  color: lightgrey;
+  background-color: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+header .btn:active :root {
+  display: none;
 }
