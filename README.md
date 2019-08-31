@@ -47,7 +47,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 4. How would you describe preprocessing to someone new to CSS?
 
-    *Preprocessing leverages added syntactic features and strategies, such as variables, mixins, and functions, which are comiled into vanilla CSS; allowing us to code in a more quick, efficient, and scalable manner.
+    * Preprocessing leverages added syntactic features and strategies, such as variables, mixins, and functions, which are comiled into vanilla CSS; allowing us to code in a more quick, efficient, and scalable manner.
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 
