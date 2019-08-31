@@ -356,6 +356,13 @@ footer {
   height: auto;
   border-radius: 10px;
 }
+.stretch-nav {
+  position: fixed;
+  opacity: 0.8;
+}
+.contact {
+  padding-top: 8%;
+}
 header {
   display: flex;
   flex-direction: column;
@@ -386,9 +393,6 @@ header form ul li input {
 }
 header form ul .message {
   height: 15rem;
-}
-header form ul img {
-  display: none;
 }
 header .btn {
   height: 5rem;
