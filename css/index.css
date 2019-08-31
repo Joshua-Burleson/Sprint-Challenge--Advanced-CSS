@@ -363,6 +363,11 @@ footer {
 .contact {
   padding-top: 8%;
 }
+@media (max-width: 500px) {
+  .contact {
+    padding-top: 20%;
+  }
+}
 header {
   display: flex;
   flex-direction: column;

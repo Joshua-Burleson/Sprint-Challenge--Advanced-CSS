@@ -1,8 +1,8 @@
 document.getElementsByClassName("submit")[0].addEventListener("click", function(event){
-    event.preventDefault()
+    event.preventDefault();
   });
 
-const rocket = function(){
+const rocket = () => {
     
     let params = ['animation-name: takeOff', 'animation-delay: 0s', 'animation-duration: 3s',' animation-iteration-count: infinite'];
 
@@ -10,11 +10,9 @@ const rocket = function(){
 
     params.forEach(str => {
         let param = str.split(':');
-        console.log(param)
         animationParameters[param[0]] = param[1].trim();
     });
 
-    console.log(animationParameters);
     
     let form = document.getElementsByTagName('form')[0];
 
