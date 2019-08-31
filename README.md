@@ -90,7 +90,7 @@ Your finished project must include all of the following requirements:
 
 ### Import LESS Files
 
-* x ] Navigate to your `index.less` file. Notice the file is blank. You have been asked to use a certain import order. That order is as follows:
+* [x] Navigate to your `index.less` file. Notice the file is blank. You have been asked to use a certain import order. That order is as follows:
 
 ```markdown
 1.variables.less
