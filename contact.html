@@ -1,0 +1,56 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Us - SpaceWalkers</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Russo+One|Ubuntu" rel="stylesheet">
+  <link href="css/index.css" rel="stylesheet">
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+
+ <!-- navigation code here -->
+  <nav class="stretch-nav">
+    <h1>SpaceWalkers</h1>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">Sign In</a></li>
+    </ul>
+  </nav>
+
+  <div class="container home contact">
+
+    <header class="intro">
+       <!-- image code here -->
+      <img src="img/main-header.png">
+      <h2>Contact Us</h2>
+
+      <form class="contact-form">
+            <ul>
+                <li><span>Name</span> <input type="text" name="name" id="name"></li>
+                <li><span>Email</span> <input type="email" name="email" id="email"></li>
+                <li><span>Subject</span> <input type="text" name="subject" id="subject"></li>
+                <li><span>Message</span> <textarea cols="41" class="message" type="text" name="message" id="message"></textarea></li>
+                <li><button type="submit" onclick='rocket()' class="submit btn">Submit</button></li>
+            </ul>
+        </form>
+    
+    </header>
+
+    <footer>
+      <p>Copyright SpaceWalkers 2018</p>
+    </footer>
+    <script src="./js/main.js"></script> 
+  </div>
+</body>
+</html>

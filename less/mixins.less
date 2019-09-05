@@ -1,1 +1,27 @@
 // Mixins Here
+
+.flex(@direction: row; @justification: space-around; @align: center){
+    display: flex;
+    flex-direction: @direction;
+    justify-content: @justification;
+    align-items: @align;
+}
+
+.butn(@height: 5rem; @width: 15rem; @brd-rad: 6%; @fnt-size: 1.8rem; @bg: @btn-bg-color; @color: white;){
+    height: @height;
+    width: @width;
+    border-radius: @brd-rad;
+    background-color: @bg;
+    color: @color;
+    font-size: @fnt-size;
+    .flex();
+}
+
+.hover(@color: lightgrey; @bg-color: none; @cursor: pointer; @fnt-weight: 600){
+    &:hover{
+        color: @color;
+        background-color: @bg-color;
+        cursor: @cursor;
+        font-weight: @fnt-weight;
+    }
+}

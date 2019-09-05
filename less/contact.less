@@ -1,0 +1,64 @@
+.stretch-nav{
+    position: fixed;
+    opacity: 0.8;
+}
+
+.contact{
+    padding-top: 8%;
+    @media @phone{
+        padding-top: 20%;
+    }
+}
+
+
+header{
+    .flex(column);
+
+    form{
+
+        background: url('/img/rocket.png') no-repeat;
+        background-size: contain;
+
+        ul{
+
+            
+
+            .flex(column, space-evenly, space-evenly);
+
+            li{
+                // visibility: hidden;
+                
+                .flex(column, center, flex-start);
+                
+                font-size: 3rem;
+                margin: 5% 0;
+
+                input{
+                    height: 3rem;
+                    width: 30rem;
+                }
+            }
+
+            .message{
+                height: 15rem;
+            }
+
+        }
+
+    }
+
+    .btn{
+        .butn(5rem, 30rem);
+        .hover();
+
+        &:active{
+
+            :root{
+                display: none;
+            }
+
+        }
+    }
+    
+}
+
